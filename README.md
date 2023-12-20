@@ -23,7 +23,7 @@ WantedBy=multi-user.target
 2.1. `sudo visudo`<br>
 2.2. Add the line: `<your-username> ALL=(ALL) NOPASSWD: /usr/bin/python3 /path/to/your/script.py`<br>
 4. Enable the service with `sudo systemctl enable <your-service-name>`
-5. (Optional) Start it with `sudo systemctl enable <your-service-name`
+5. (Optional) Start it with `sudo systemctl enable <your-service-name>`
 
 Now everytime you boot your pi you should see a fullscreen feed of your camera!
 
